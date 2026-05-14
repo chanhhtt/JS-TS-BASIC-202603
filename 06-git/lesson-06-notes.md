@@ -93,6 +93,7 @@ ls: list ra tất cả các thư mục trong thư mục cha
     -u: upstream 
     origin là tên ngắn của repo github mà mình đã gắn vào
 
+    từ lần sau: git push
 
 có nhiều môi trường
 dev: main  -> nhánh  này là nhánh chính chạy ổn định -> khi làm việc người ta sẽ tạo ra 1 nhánh khác để làm việc để ko ảnh hưởng tới nhánh chính đang sử dụng  -> sau khi code ổn định ở nhánh phụ -> chúng ta mới merge code -> vào nhánh chính -> để bổ sung thêm tính năng
@@ -125,9 +126,12 @@ fix: correct login selector
 git status:
 Changes not staged for commit
 
-0f58b09 (HEAD -> main, origin/main, origin/HEAD) docs: add git lesson
-f2541b4 2nd commit
-544d02d first commit
+Check log xem đã commit những gì:
+    git log --oneline
+
+79bd5e3 (HEAD -> main, origin/main) docs: add git lesson
+666ad40 nội dung first commit
+
 
 HEAD -> main: là vị trí mọi người đang đứng
 
