@@ -136,6 +136,7 @@ Check log xem đã commit những gì:
 HEAD -> main: là vị trí mọi người đang đứng
 
 Muốn lấy thông tin về code mới nhất ta dùng git pull
+Already up to date: Code trên local giống hệt trên github
 
 sửa lần 2
 sửa lần 3
