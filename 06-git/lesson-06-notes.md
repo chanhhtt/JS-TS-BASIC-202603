@@ -135,6 +135,10 @@ Check log xem đã commit những gì:
 
 HEAD -> main: là vị trí mọi người đang đứng
 
+Mình sẽ cần phải update code liên tục với nhánh main
+git fetch
+git pull
+
 Muốn lấy thông tin về code mới nhất ta dùng git pull
 Already up to date: Code trên local giống hệt trên github
 
