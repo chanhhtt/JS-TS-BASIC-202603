@@ -157,14 +157,16 @@ bạn B: -> kéo code (1o dòng) -> bạn B ngày n sau khi main có 20 dòng m�
 -> ko confict thì merege ok -> pull main về để có cả code của B -> và bắt đầu taoh nhánh mới code tiếp
 
 branch
-cách đặt tên ngắn gọn, ko dáu. ko có khoẳng trắn
+cách đặt tên ngắn gọn, ko dáu. ko có khoẳng trắng
+Để xem branch hiện tại:
+git branch
 
 docs/git-lesson
 feat/product-search 
 fix/ 
 tests/
 
-ko nên đặt
+ko nên đặt:
 nhánh mới
 test
 abc
@@ -174,6 +176,7 @@ Lý do: nhánh mới sẽ tạo ra trên nhánh hiện tại
 Nếu đang đứng ở main -> nhánh mới sẽ lấy từ main
 FLOW: quay về main -> pull code mới nhất -> tạo nhánh từ main
 
+Để quay về main:
 git checkout main
 git checkout: chuyển sang 1 nhánh khác
 
