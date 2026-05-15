@@ -179,6 +179,7 @@ FLOW: quay về main -> pull code mới nhất -> tạo nhánh từ main
 Để quay về main:
 git checkout main
 git checkout: chuyển sang 1 nhánh khác
+git checkout -b tên_nhánh: tạo nhánh mới và chuyển sang nhánh đó
 
 tôi đã code xong ở nhánh mới
 
