@@ -186,7 +186,9 @@ tôi đã code xong ở nhánh mới
 tôi đã code xong ở nhánh 2
 
 Muốn merge nhánh khác về nhánh main:
-check out về main -> và dùng git merge tên nhánh muốn merge -> git push
+check out về main -> và dùng git merge tên nhánh muốn merge
+Sau khi git merge thì dùng git pull
+Cũng có thể merge bằng UI trên github tại pull request
 
 xóa nhánh remote trên github
 git push origin --delete tên nhánh muốn xóa
