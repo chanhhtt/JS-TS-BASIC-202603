@@ -219,3 +219,14 @@ Tài liệu chi tiết cho case nhiều người cùng làm, `main` có code m�
 
 ```text
 06-git/lesson-07-team-main-update-workflow.md
+
+.gitignore
+xảy ra 2 trường hợp với gitinore
+1 file chưa từng commit -> thêm vào gitignore là đủ
+2 file đã commit/push -> thêm vào .gitignore là chưa đủ, phải dùng git rm --cached hoặc git rm -r --cached
+sẽ nói cho git biết là "nx file này đừng theo dõi"
+node_modules/
+dist/
+.env (aws, cloud)
+.log
+coverage/
