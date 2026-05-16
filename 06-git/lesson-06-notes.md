@@ -193,5 +193,29 @@ Cũng có thể merge bằng UI trên github tại pull request
 xóa nhánh remote trên github
 git push origin --delete tên nhánh muốn xóa
 
-git branch -d 
-git branch -D 
+## Xóa branch
+
+Xóa branch remote trên GitHub:
+
+```bash
+git push origin --delete tên-nhánh-muốn-xóa
+```
+
+Xóa branch local:
+
+```bash
+git branch -d tên-nhánh
+git branch -D tên-nhánh
+```
+
+Trong đó:
+
+- `git branch -d`: xóa branch local đã merge.
+- `git branch -D`: ép xóa branch local, kể cả chưa merge.
+
+## Tài liệu tham khảo
+
+Tài liệu chi tiết cho case nhiều người cùng làm, `main` có code mới trong khi branch của mình cũng có code:
+
+```text
+06-git/lesson-07-team-main-update-workflow.md
